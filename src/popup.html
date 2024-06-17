@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF Analytics</title>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <style>
+        .switch {
+        display: inline-block;
+        height: 17px;
+        position: relative;
+        width: 30px;
+        }
+
+        .switch input {
+        display:none;
+        }
+
+        .slider {
+        background-color: #ccc;
+        bottom: 0;
+        cursor: pointer;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: .4s;
+        }
+
+        .slider:before {
+        background-color: #fff;
+        bottom: 2px;
+        content: "";
+        height: 13px;
+        left: 2px;
+        position: absolute;
+        transition: .4s;
+        width: 13px;
+        }
+
+        input:checked + .slider {
+        background-color: #66bb6a;
+        }
+
+        input:checked + .slider:before {
+        transform: translateX(13px);
+        }
+
+        .slider.round {
+        border-radius: 17px;
+        }
+
+        .slider.round:before {
+        border-radius: 50%;
+        }
+
+        .container {
+            margin-left: 10px;
+        }
+    </style>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div style="width: 250px;">
+            <div style="display: flex; align-items:center;justify-content: center;margin-bottom: 10px;">
+                <img src = "asset/icon48.png" style="width: 10%; height: 30%; margin-right: 15px;">
+                <h2>
+                    AC Analytics
+                </h2>
+            </div>
+        <div class="container">
+            <div style = "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                <div style = "display:flex;align-items:center;margin-bottom: 5px;">
+                    <label style = "margin-right:10px;font-size: 15px;">
+                        Remind daily
+                    </label>
+                    <label class="switch" for="cb">
+                        <input type="checkbox" id="cb"/>
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+                <input type="number" id="hour" min="1" max="12" placeholder="Hour">
+                <input type="number" id="minute" min="0" max="59" placeholder="Minute">
+                <select id="time">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; margin-top: 30px; justify-content: end;">
+        Developed by &nbsp;<a href="https://atcoder.jp/users/PrinceofCP">PrinceofCP</a> 
+        </div>
+    </div>
+    <script src="js/popup.js"></script>
+</body>
+</html>

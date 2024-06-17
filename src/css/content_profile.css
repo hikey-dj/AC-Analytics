@@ -1,0 +1,33 @@
+.unsolved_problem:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+.submissions-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.submissions-table th{
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    size: 20px;
+}
+.submissions-table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#filter{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
