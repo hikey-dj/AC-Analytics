@@ -2,6 +2,8 @@
   This extension helps you streamline your AtCoder experience by including much needed features that is missing from this website!! Track other users, yourself, access problems more easily and save them when needed!!
 ## Installation
   Add this extension to any Chromium powered browser by visiting this product on google webstore : [AC Analytics](https://chromewebstore.google.com/detail/ac-analytics/fbliobpicoanacbncphlgaghdkodkgme?authuser=0&hl=en-GB&pli=1)
+## Updates and Feature Request
+  Follow this [CodeForces Blog](https://codeforces.com/blog/entry/130898) for updates and request any feature that you wish it were there.
 ## Features
   1. **Activity Calander** - Is added to better track your progress like in Github and Codeforces. ![image](https://github.com/user-attachments/assets/16ed68da-83b1-4117-8b25-2bb70076cbf2)
   2. **Problems Solved by Rating** - See what you had been solving and up solve when needed. 
