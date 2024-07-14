@@ -27,7 +27,7 @@ For the **AC Analytics** Chrome extension, the following permissions are require
 - `"cookies"`: The cookies permission is used to access and manage cookies stored by the browser. It is being used to fetch the name of the current user.
 - `"host_permissions"`: The extension requires permissions to interact with the AtCoder website (`"https://atcoder.jp/*"`). This permission is crucial for the extension to inject content scripts, modify web pages, and access data on the AtCoder site, enabling features like problem tracking, submission history analysis, and more.
 
-Each permission is carefully considered and requested only when necessary to provide the features and functionality described. We are committed to respecting user privacy and minimizing the scope of permissions to what is strictly required for the extension's operation.
+Each permission is carefully considered and requested only when necessary to provide the features and functionality described. No user data is collected ensuring user's privacy.
 
 ## Credits
   Special thanks to:
